@@ -36,7 +36,7 @@ export const SignupFlow = () => {
         </FormControl>
         <PrimaryBtn width="100%">Sign up</PrimaryBtn>
         <Box justify="center" mt="1rem">
-        <Text>Already have an account? <Link to="/signin" style={{color: Colors.SecondaryStrong, textDecoration: 'none'}}>Sign in.</Link></Text>
+        <Text>Already have an account? <Link to="/" style={{color: Colors.SecondaryStrong, textDecoration: 'none'}}>Sign in.</Link></Text>
         </Box>
             </form>
         </FormWrapper>

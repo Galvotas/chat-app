@@ -19,15 +19,15 @@ export const ResetPassword = () => {
     }
     return (
         <FormWrapper>
-            <AuthHeader title="Reset password" message="Forgot your password? No problem. Reset it using your email."/>
+            <AuthHeader title="Reset password." message="Forgot your password? No problem. Reset it using your email."/>
         <form onSubmit={handleSubmit}>
         <FormControl>
             <Label>Email</Label>
-            <TextField placeholder="Please enter your email" icon={<MdEmail/>}/>
+            <TextField placeholder="Please enter your email" background={Colors.Neutral} icon={<MdEmail/>}/>
         </FormControl>
         <PrimaryBtn width="100%">Reset</PrimaryBtn>
         <Box justify="center" mt="1rem">
-        <Text>Back to <Link to="/signin" style={{color: Colors.SecondaryStrong, textDecoration: 'none'}}>sign in.</Link></Text>
+        <Text>Back to <Link to="/" style={{color: Colors.SecondaryStrong, textDecoration: 'none'}}>sign in.</Link></Text>
         </Box>
         </form>
         </FormWrapper>
