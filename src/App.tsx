@@ -1,25 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import { LoginFlow } from './containers/login';
+import { ResetPassword } from './containers/reset';
+import { SignupFlow } from './containers/signup';
+import { Chat } from './pages/Chat';
+import { GlobalStyle } from './styles/GlobalStyle'
 
-function App() {
+const App = ():  JSX.Element =>  {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+   <GlobalStyle/>
+   <Route  path='/chat' component={Chat} exact/>
+   <Route path="/signin" component={LoginFlow} exact/>
+   <Route path="/signup" component={SignupFlow} exact/>
+   <Route path="/reset-password" component={ResetPassword} exact/>
+    </Router>
   );
 }
 
