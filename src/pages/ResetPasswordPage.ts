@@ -1,1 +1,1 @@
-export {ResetPassword} from '../containers/reset'
+export { ResetPassword } from "../containers/reset";

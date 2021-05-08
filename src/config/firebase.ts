@@ -1,2 +1,1 @@
-
-export const bom = ''
+export const bom = "";

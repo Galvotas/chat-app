@@ -1,11 +1,11 @@
-import styled from 'styled-components'
-import { Colors } from '../../styles/colors'
+import styled from "styled-components";
+import { Colors } from "../../styles/colors";
 
 interface IDivider {
-    background?: string
+  background?: string;
 }
 
 export const Divider = styled.div<IDivider>`
-height: 1px;
-background-color: ${({background}) => background || Colors.PrimaryDark};
-`
+  height: 1px;
+  background-color: ${({ background }) => background || Colors.PrimaryDark};
+`;

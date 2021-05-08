@@ -1,6 +1,5 @@
-import {createGlobalStyle} from 'styled-components'
-import {Colors} from './colors'
-
+import { createGlobalStyle } from "styled-components";
+import { Colors } from "./colors";
 
 export const GlobalStyle = createGlobalStyle`
 * {
@@ -19,4 +18,4 @@ height: 100vh;
 body {
    border-radius: 4rem;
 }
-`
+`;

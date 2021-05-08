@@ -1,15 +1,15 @@
 import styled from "styled-components";
 import { Spacing } from "../../types";
 
-interface IBox extends Spacing{
+interface IBox extends Spacing {
   justify?: string;
-align?: string;
+  align?: string;
 }
 
 export const Box = styled.div<IBox>`
-display:flex;
-justify-content: ${({justify}) => justify};
-align-items: ${({align}) => align};
+  display: flex;
+  justify-content: ${({ justify }) => justify};
+  align-items: ${({ align }) => align};
   padding-top: ${({ pt }) => `${pt}`};
   padding-right: ${({ pr }) => `${pr}`};
   padding-bottom: ${({ pb }) => `${pb}`};

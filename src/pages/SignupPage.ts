@@ -1,1 +1,1 @@
-export {SignupFlow} from '../containers/signup'
+export { SignupFlow } from "../containers/signup";
