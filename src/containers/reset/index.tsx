@@ -1,6 +1,4 @@
-import styled from 'styled-components';
-
-import React, { FormEvent } from 'react'
+import { FormEvent } from 'react'
 import { FormWrapper } from '../../components/form/FormWrapper';
 import { AuthHeader } from '../../components/shared/AuthHeader';
 import { FormControl } from '../../components/form';
