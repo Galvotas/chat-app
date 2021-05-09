@@ -2,7 +2,7 @@ export enum Colors {
   PrimaryLight = "#edf0f4",
   PrimaryDark = "#b2b9c",
   SecondaryLight = "#b9E9D9",
-  SecondaryStrong = "#01a38b",
+  SecondaryStrong = "#000",
   DarkLight = "#7c7675",
   Dark = "#3c444b",
   Neutral = "#fff",

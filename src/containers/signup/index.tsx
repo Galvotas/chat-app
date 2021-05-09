@@ -52,7 +52,7 @@ export const SignupFlow = () => {
           <Text>
             Already have an account?{" "}
             <Link
-              to="/"
+              to="/signin"
               style={{ color: Colors.SecondaryStrong, textDecoration: "none" }}
             >
               Sign in.

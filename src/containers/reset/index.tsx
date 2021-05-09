@@ -35,7 +35,7 @@ export const ResetPassword = () => {
           <Text>
             Back to{" "}
             <Link
-              to="/"
+              to="/signin"
               style={{ color: Colors.SecondaryStrong, textDecoration: "none" }}
             >
               sign in.

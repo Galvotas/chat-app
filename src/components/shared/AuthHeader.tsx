@@ -9,8 +9,8 @@ interface ILogoContainer {
 }
 
 export const LogoContainer = styled.div<ILogoContainer>`
-  width: ${({ width }) => width || "2rem"};
-  height: ${({ height }) => height || "2rem"};
+  width: ${({ width }) => width || "1rem"};
+  height: ${({ height }) => height || "1rem"};
   margin-bottom: 3rem;
 `;
 
